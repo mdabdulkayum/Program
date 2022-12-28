@@ -20,9 +20,9 @@ int main(){
         }
     }
 
-    printf("Bubble sort -- Assending Order: ");
+    printf("Bubble sort -- Assending Order:");
     for(i=0; i<size; i++){
-        printf("%d \t",num[i]);
+        printf("\t%d",num[i]);
     }
 
     return 0;
